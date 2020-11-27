@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffbb00;
+    text-decoration: none;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid #ffbb00;
+}
+
+.btn {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+} 
+
+.yep {
+    display: inline;
+    color: #ffbb00;
+    background-color: rgba(255, 187, 0, 20%);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    line-height: 4rem;
+    font-size: 0.9rem;
+}
+
+.flex {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-small {
+    height: 500px;
+}
+
+.phone-medium {
+    height: 530px;
+}
+
+.phone-big {
+    height: 560px;
+}
+
+
+
+/* Top */
+#top {
+    background-image: url(/images/blue_background_crop.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+
+}
+
+/* Nav */
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.toggler {
+    color: #ffbb00;
+    font-size: 2rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+}
+
+.btn-yellow {
+    background-color: #ffbb00;
+    color: #ffffff;
+}
+
+.btn-yellow:hover {
+    background-color: #ffffff;
+    color: #ffbb00;
+}
+
+#top-menu {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#top-menu a {
+    padding: 0.5rem 2rem;
+}
+
+
+/* Showcase */
+
+#showcase {
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-family: poppins;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.p-show {
+    font-family: poppins;
+    color: #ffffff;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+
+.btn-tran {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    
+}
+
+.btn-tran:hover {
+    border: 2px solid #ffbb00;
+    color: #ffbb00;
+}
+
+.p-video {
+    color: #ffffff;
+    font-size: 0.9rem;
+    
+    margin-left: 1rem;
+    margin-top: auto;
+}
+
+.showcase-sub {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.showcase-sub img {
+    padding-left: 1.5rem;
+}
+
+
+/* ec */
+#ec img {
+    padding: 1rem;
+    margin: auto;
+}
+
+
+/* Aboutus */
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.p-grey {
+    color: #8A8A8A;
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+
+.about-download {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.appstore {
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+/* Features */
+
+.feat-flex {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.p-grey-small {
+    color: #8A8A8A;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+/* Screens */
+.screens-content {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.screens-content p {
+    color: #8A8A8A;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding: 0rem 1rem;
+}
+
+#carousel2 {
+    padding-bottom: 2rem;
+}
+
+.phone-light {
+    opacity: 43%;
+}
+
+.phone-darker {
+    opacity: 71%;
+}
+
+
+
+/* Stats */
+
+.world {
+    background-image: url(/images/bg-world.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stats-content {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.stats-content p {
+    color: #8A8A8A;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.num1 {
+    grid-area: num1;
+}
+.num2 {
+    grid-area: num2;
+}
+.num3 {
+    grid-area: num3;
+}
+.num4 {
+    grid-area: num4;
+}
+.stat1 {
+    grid-area: stat1;
+}
+.stat2 {
+    grid-area: stat2;
+}
+.stat3 {
+    grid-area: stat3;
+}
+.stat4 {
+    grid-area: stat4;
+}
+
+.stats-box {
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-areas:    "num1 num2"
+                            "stat1 stat2"
+                            "num3 num4"
+                            "stat3 stat4";
+    text-align: center;
+    margin: auto;
+}
+
+.stats-box h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3096FE;
+    padding-top: 1rem;
+}
+
+.stats-box h5 {
+    font-size: 1.2rem;
+}
+
+/* Download */
+#download {
+    background-image: url(/images/Bg-mid.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    padding-top: 2rem;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.down-content {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.down-content p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+
+/* Contact */
+
+#contact .container {
+    padding: 3rem;
+    text-align: center;
+}
+
+#contact p {
+    color: #8A8A8A;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+#contact input,
+#contact textarea {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    background-color: #F9F5F5;
+}
+
+
+.btn-blue {
+    border: 1px solid #3096FE;
+    background-color: #3096FE;
+    color: #ffffff;
+    padding: 0.5rem 4rem;
+    margin: auto;
+}
+
+.btn-blue:hover {
+    border: 1px solid #194877;
+    background-color: #194877;
+    color: #ffffff;
+}
+
+
+/* Footer */
+
+footer {
+    background-image: url(/images/Bg-footer.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foot-block {
+    padding: 2rem 3rem;
+}
+
+.foot-logo {
+    display: block;
+    margin: auto;
+}
+
+.foot-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-li {
+    margin: 1rem;
+}
+
+.foot-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.foot-menu a:hover {
+    border-bottom: none;
+}
+
+.social-icon {
+    padding: 0.5rem 0.5rem;
+}
+
+.social-icon:hover {
+    border-bottom: none;
+}
+
+.social-icon img:hover {
+    background-color: #ffbb00;
+    border-radius: 8px;
+}
+
+
+/* tablet */
+@media (min-width: 768px) {
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /* Showcase */
+
+    h1 {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    /* ec */
+
+    #carousel1 img {
+        padding: 2rem;
+        width: 50%;
+    }
+
+    /* features */
+    .feat-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Screens */
+    .screens-content p {
+        font-size: 0.9rem;
+        padding: 0rem 5rem;
+    }
+
+    /* Stats */
+
+    .stats-content {
+        text-align: center;
+        padding: 3rem;
+    }
+    
+    .stats-content p {
+        font-size: 0.9rem;
+        padding: 0rem 5rem;
+    }
+    
+    .stats-box {
+        display: grid;
+        grid-template-areas:    "num1 num2 num3 num4"
+                                "stat1 stat2 stat3 stat4";
+        padding: 0 1rem 3rem 1rem;
+    }
+
+    .stats-box h3 {
+        font-size: 1.8rem;
+        padding-top: 0;
+    }
+
+    .stats-box h5 {
+        font-size: 1.4rem;
+    }
+
+
+    /* download */
+    h2 {
+        font-size: 2.5rem;
+        margin: 0.5rem;
+    }
+
+    .down-content {
+        padding-bottom: 3rem;
+        text-align: left;
+    }
+    
+    .down-content p {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0.5rem;
+    }
+
+    .down-phone {
+        padding: 2rem 1rem;
+    }
+
+
+    /* contact */
+
+    #contact p {
+        padding: 1rem 6rem;
+    }
+
+    #contact input,
+    #contact textarea {
+    padding: 1.5rem;
+    }
+
+    /* footer */
+
+    #foot-block {
+        padding: 2rem 5rem;
+    }
+}
+
+
+/* desktop */
+@media (min-width: 992px) {
+    
+    /* Top */
+    
+    #top {
+        background-image: url(/images/blue_background_crop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+
+    }
+    
+    /* nav */
+
+    #nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    /* showcase */
+    #showcase-content {
+        padding-right: 5rem;
+    }
+    
+    h1 {
+        font-size: 3.2rem;
+        line-height: 5rem;
+    }
+    
+    /* ec */
+    #ec {
+        padding: 5rem 10rem;
+    }
+
+    /* About us */
+
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+
+        padding: 5rem 1rem 5rem 5rem;
+    }
+
+       
+    .about-content {
+        padding-right: 1rem;
+        margin: auto;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+        font-weight: bolder;
+        line-height: 1.2;
+    }
+
+    .appstore {
+        height: 4rem;
+    }
+
+
+    /* Features */
+    .feat-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+    }
+
+    .p-feat {
+        margin-right: 4rem;
+    }
+
+    /* screens */
+
+    .stat-phones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-grow:hover {
+        transform: scale(1.1);
+    }
+
+    /* Stats */
+    #stats {
+        padding: 3rem;
+    }
+
+    /* download */
+
+    #download .flex {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    h2 {
+        font-size: 2.7rem;
+        line-height: 1.5;
+    }
+
+    .down-content {
+        padding-bottom: 4rem;
+        padding-top: 3rem;
+    }
+
+    .down-content p {
+        font-size: 0.9rem;
+        padding: 2rem 0;
+        line-height: 1.8;
+    }
+
+    .desk-phones {
+        height: 450px;
+    }
+
+    /* contact */
+
+    #contact p {
+        padding: 1rem 19rem;
+    }
+
+    #contact input,
+    #contact textarea {
+    padding: 2rem;
+    }
+}
+
+/* desktop large */
+@media (min-width: 1200px) {
+
+
+}

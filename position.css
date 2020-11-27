@@ -1,0 +1,112 @@
+
+/* showcase */
+
+#showcase-phones {
+    position: relative;
+}
+
+#showcase-phones {
+    width: 50%;
+    height: 600px;
+}
+
+.sc-phone1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sc-phone2 {
+    position: absolute;
+    top: 5rem;
+    right: 8rem;
+}
+
+
+/* ec */
+.spin-logo {
+    animation-name: small-spinn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes small-spinn {
+    from {
+        transform: rotate(0) scale(1);
+    }
+    to {
+        transform: rotate(10deg) scale(1.2);
+    }
+}
+
+
+/* About us*/
+
+
+.bg-dots {
+    position: absolute;
+    left: -9rem;
+
+    animation-name: spinn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes spinn {
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+.about-phone {
+    position: absolute;
+    
+}
+
+.about-content {
+    position: relative;
+
+}
+
+
+/* Features */
+.blue-dots-bg {
+    position: absolute;
+    top: 5rem;
+}
+
+ .yebl-bg {
+    position: absolute;
+    left: 5rem;
+    top: 3rem;
+}
+
+.feat-phone2 {
+    position: absolute;
+    bottom: 0rem;
+    right: 9rem;
+
+    transform: rotate(-35deg);
+    z-index: 1;
+}
+
+.feat-phone1 {
+    position: absolute;
+    right: 0rem;
+    bottom: -1rem;
+
+    z-index: 2;
+}
+
+
+/* download */
+
+
+.desk-phones {
+    position: absolute;
+    top: -12.8rem;
+}
