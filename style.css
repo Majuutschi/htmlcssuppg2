@@ -128,7 +128,7 @@ a:hover {
 }
 
 h1 {
-    font-family: poppins;
+    font-family: poppins, sans-serif;
     font-weight: bold;
     color: #ffffff;
     font-size: 2rem;
@@ -136,7 +136,7 @@ h1 {
 }
 
 .p-show {
-    font-family: poppins;
+    font-family: poppins, sans-serif;
     color: #ffffff;
     font-size: 0.9rem;
     line-height: 2rem;
